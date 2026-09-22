@@ -58,32 +58,6 @@ For freelancers and agencies, it doubles as a **lead-generation tool**: run it o
 3. Go to **Mobilytics** in the admin sidebar → click **Run Mobile Audit**
 4. *(Optional)* Create a page and add the shortcode:
 
-┌─────────────────────────────────────────────────────────────┐
-│ [ Run Mobile Audit ] │
-└─────────────────────────┬───────────────────────────────────┘
-│
-┌─────────────────▼─────────────────┐
-│ ① SERVER-SIDE (PHP) │
-│ DOMDocument parses fetched HTML │
-│ → viewport, images, meta, DOM │
-│ → returns checks + scan token │
-└─────────────────┬─────────────────┘
-│
-┌─────────────────▼─────────────────┐
-│ ② CLIENT-SIDE (JS in hidden │
-│ 375×812 iframe) │
-│ Real rendered layout checks │
-│ → overflow, tap targets, font │
-│ → results via postMessage │
-└─────────────────┬─────────────────┘
-│
-┌─────────────────▼─────────────────┐
-│ ③ MERGE + SCORE + PERSIST │
-│ Weighted category + overall │
-│ → instantly re-rendered dashboard│
-
-
-
 
 - **PHP handles** everything visible in raw HTML: viewport, alt text, image weight, render-blocking scripts, meta tags.
 - **JS handles** everything needing a real render: horizontal overflow, computed font sizes, real tap-target geometry, intrusive overlays.
