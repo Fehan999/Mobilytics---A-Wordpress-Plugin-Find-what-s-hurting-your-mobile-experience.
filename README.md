@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📱 Mobilytics
+# Mobilytics
 
 ### WordPress Mobile UX Auditor
 
@@ -16,7 +16,7 @@ A lightweight WordPress plugin that audits a site's mobile user experience and t
 
 **A 0–100 score · 8 categories · 24 checks · Plain-English fixes · A client-ready report.**
 
-[Features](#-features) · [Screenshots](#-screenshots) · [Install](#-installation) · [How it works](#-how-a-scan-works) · [Roadmap](#-roadmap)
+[Features](#-features) · [Install](#-installation) · [How it works](#-how-a-scan-works) · [Roadmap](#-roadmap)
 
 </div>
 
@@ -38,20 +38,20 @@ For freelancers and agencies, it doubles as a **lead-generation tool**: run it o
 
 | | |
 |---|---|
-| 🎯 **Overall Mobile UX Score** | 0–100 with Good / Needs Work / Critical grading |
-| 📊 **8 Category Scores** | Responsive, Readability, Touch Targets, Navigation, Images, Performance, Accessibility, Mobile SEO |
-| ✅ **24 Reliable Checks** | Each marked Passed / Warning / Critical — with *why it matters* and *how to fix it* |
-| ⚡ **One-Click Audit** | Loading state, progress messages, last-scan timestamp |
-| 🎨 **Beautiful Dashboard** | Score ring, category cards, severity badges, filterable issue list |
-| 📄 **Client Report** | Public `[mobilytics_report]` shortcode with PDF export |
-| 💼 **Lead-Gen CTA** | Customizable "Need help fixing these issues?" block |
-| ⚙️ **Full Settings Page** | Scan frequency, exclusions, thresholds, branding, report options |
-| 🔒 **Secure by Default** | Nonces, capability checks, sanitization, escaping throughout |
-| 🌍 **i18n Ready** | All strings translatable |
+|  **Overall Mobile UX Score** | 0–100 with Good / Needs Work / Critical grading |
+|  **8 Category Scores** | Responsive, Readability, Touch Targets, Navigation, Images, Performance, Accessibility, Mobile SEO |
+|  **24 Reliable Checks** | Each marked Passed / Warning / Critical — with *why it matters* and *how to fix it* |
+|  **One-Click Audit** | Loading state, progress messages, last-scan timestamp |
+|  **Beautiful Dashboard** | Score ring, category cards, severity badges, filterable issue list |
+|  **Client Report** | Public `[mobilytics_report]` shortcode with PDF export |
+|  **Lead-Gen CTA** | Customizable "Need help fixing these issues?" block |
+|  **Full Settings Page** | Scan frequency, exclusions, thresholds, branding, report options |
+|  **Secure by Default** | Nonces, capability checks, sanitization, escaping throughout |
+|  **i18n Ready** | All strings translatable |
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. Clone or download this repo into `wp-content/plugins/mobilytics/`
 2. Activate **Mobilytics** under **Plugins → Installed Plugins**
@@ -67,7 +67,7 @@ This is the core architectural decision that keeps the plugin lightweight while 
 
 ---
 
-## 🧮 Scoring Model
+##  Scoring Model
 
 - Each check has a **weight (1–3)** based on its relative importance.
 - Points: `Passed = 100`, `Warning = 50`, `Critical = 0`.
@@ -85,7 +85,7 @@ No Composer. No npm. No build step. No external services. **Just WordPress, done
 
 ---
 
-## 🗺 Roadmap
+##  Roadmap
 
 - [ ] Multi-page / full-site crawl
 - [ ] Historical score trend chart *(data already tracked)*
